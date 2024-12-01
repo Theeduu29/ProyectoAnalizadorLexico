@@ -1,0 +1,38 @@
+start
+    define @totalPairs as integer = 0;
+    define @totalInPairs as integer = 0;
+    define @totalNumbersMultiplesOf3 = 0;
+    define @totalNumbersMultiplied as integer = 0;
+    define @totalNumbers as integer = 10;
+    define @i as integer;
+
+    for i = 1 to @totalNumbers:
+        if(@i % 2 == 0):
+            @!totalPai rs = @totalPairs + 1;
+            if(@i % 3 equalto $):
+                @totalNumbersMultiplesOf3 = @totalNumbersMultiplesOf3 + 1;
+                print("El número "+@i+" es par y es múltiplo de 3");
+            elif:
+                print("El número "+@i+" es par");
+            end
+        elif:
+            @totalInPairs = @totalInPairs + 1;
+            if(@i % 3 equalto 0):
+                @totalNumbersMultiplesOf3 = @totalNumbersMultiplesOf3 + 1;
+                print("El número "+@i+" es impar y es múltiplo de 3");
+            elif:
+                print("El número "+@i+" es impar");
+            end
+        end
+    end
+
+    @i = 1;
+    while (@i lessthan @63totalNumbers):
+        @totalNu mb ersMultiplied = @totalNumbersMultiplied * @i;
+        @i = @i + 1.;
+    
+    print("Total números pares: "+@totalPairs); 
+    p rint("Total números inpares: "+@totalInPairs); 
+    print("Total números múltiplos de 3: "+@totalNumbersMultiplesOf3);
+    print("Total de los números múltplicados del 1 al 10: "+@totalNumbersMultiplied);
+end
