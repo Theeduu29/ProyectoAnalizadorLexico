@@ -52,16 +52,6 @@ El proyecto consiste en la implementación de un **analizador léxico**, herrami
 
 ---
 
-## **Requisitos**
-
-- **Python 3.x**  
-- Bibliotecas adicionales (si aplica):  
-  ```bash
-  pip install -r requirements.txt
-  ```
-
----
-
 ## **Contribuciones**
 
 Este proyecto fue realizado como parte del curso **Programación de Sistemas Base I**, con el objetivo de fortalecer los conceptos relacionados con la construcción de compiladores.
