@@ -5,7 +5,8 @@
 
 **Materia:** Programación de Sistemas Base I  
 **Grupo y Grado:** 8° I  
-**Institución:** Universidad Autónoma de Tamaulipas  
+**Escuela:** Facultad de Ingenieria Tampico - 
+Universidad Autonoma de Tamaulipas
 
 ---
 
